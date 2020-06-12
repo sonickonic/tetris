@@ -1,0 +1,24 @@
+/* utilities */
+@import "utilities/veribals";
+@import "utilities/mixin";
+
+/* base */
+@import "base/reset";
+@import "base/typography";
+
+/* blocks */
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/player-one";
+@import "blocks/grid";
+@import "blocks/menu";
+@import "blocks/btn";
+@import "blocks/card";
+
+.tetris {
+  margin: 0 auto;
+  margin-top: 0.8em;
+  background-image: url(../tetris.png);
+  width: 90px;
+  height: 60px;
+}
